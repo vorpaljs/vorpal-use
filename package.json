@@ -1,0 +1,48 @@
+{
+  "name": "vorpal-use",
+  "version": "1.0.0",
+  "description": "Live importing of Vorpal extensions.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "xo && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vorpaljs/vorpal-use.git"
+  },
+  "keywords": [
+    "api",
+    "cli",
+    "repl",
+    "vantage",
+    "vorpaljs"
+  ],
+  "author": "dthree",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vorpaljs/vorpal-use/issues"
+  },
+  "homepage": "https://github.com/vorpaljs/vorpal-use#readme",
+  "xo": {
+    "envs": ["node", "mocha", "assert"],
+    "space": true
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.2",
+    "vorpal": "^1.0.0",
+    "xo": "^0.7.1"
+  },
+  "dependencies": {
+    "npm": "^3.3.0",
+    "temp": "^0.8.3",
+    "chalk": "^1.1.0"
+  },
+  "engines": {
+    "node": ">= 0.11.16",
+    "iojs": ">= 1.0.0"
+  },
+  "files": [
+    "lib"
+  ]
+}
