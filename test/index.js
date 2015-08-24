@@ -44,7 +44,7 @@ describe('vorpal-use', function () {
 
   it('should install a live vorpal-module', function (done) {
     this.timeout(90000);
-    vorpal.exec('use vantage-hacker-news').then(function () {
+    vorpal.exec('use vorpal-hacker-news').then(function () {
       var out = stdoutFn();
       out.should.containEql('Successfully registered');
       done();
