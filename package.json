@@ -1,6 +1,6 @@
 {
   "name": "vorpal-use",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Live importing of Vorpal extensions.",
   "main": "./lib/index.js",
   "scripts": {
@@ -24,7 +24,11 @@
   },
   "homepage": "https://github.com/vorpaljs/vorpal-use#readme",
   "xo": {
-    "envs": ["node", "mocha", "assert"],
+    "envs": [
+      "node",
+      "mocha",
+      "assert"
+    ],
     "space": true
   },
   "devDependencies": {
